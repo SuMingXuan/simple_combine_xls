@@ -48,8 +48,8 @@ datas = [
 ]
 simple_combine_xls = SimpleCombineXls.new(datas)
 simple_combine_xls.drawing
-# after drawing Hand over to spreadsheet
-# you can use spreadsheet do anything
+# Hand over to spreadsheet when after drawing
+# You can use spreadsheet do anything
 # Please see https://github.com/zdavatz/spreadsheet
 simple_combine_xls.xls.write './asd.xls'
 ```
